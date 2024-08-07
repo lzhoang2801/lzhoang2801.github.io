@@ -19,12 +19,32 @@ export default defineAppConfig({
       },
       nav: [{
         title: 'Hướng dẫn',
-        to: '/introduction',
-        description: 'Chi tiết, dễ hiểu dành cho người Việt. Được góp nhặt từ nhiều nguồn và kinh nghiệm của bản thân.',
+        description: 'Chi tiết, dễ hiểu dành cho người Việt. Được góp nhặt từ nhiều nguồn và kinh nghiệm của bản thân',
+        links: [{
+          title: 'Giới thiệu',
+          to: '/introduction',
+          description: 'Tổng quan về macOS, OpCore Simplify và quá trình cài đặt',
+        }, {
+          title: 'Phần cứng',
+          to: '/hardware',
+          description: 'Xác định thông tin phần cứng và tính tương thích với macOS',
+        }, {
+          title: 'Chuẩn bị EFI',
+          to: '/gathering-files',
+          description: 'Tạo OpenCore EFI đơn giản với OpCore Simplify và kiến thức cần biết về EFI',
+        }, {
+          title: 'Cài đặt macOS',
+          to: '/install-macos',
+          description: 'Chuẩn bị và cài đặt macOS lên máy tính của bạn',
+        }, {
+          title: 'Làm quen với macOS',
+          to: '/macos-getting-started',
+          description: 'Bắt đầu với những thay đổi, thích nghi với trải nghiệm mới',
+        }]
       }, {
         title: 'Dịch vụ',
         to: '/services',
-        description: 'Cung cấp một hệ thống tối ưu, nhận đầy đủ phần cứng có thể trong thời gian ngắn nhất.',
+        description: 'Cung cấp một hệ thống tối ưu, nhận đầy đủ phần cứng có thể trong thời gian ngắn nhất',
       }, {
         title: 'Liên hệ',
         to: 'https://www.facebook.com/macforce2601',
