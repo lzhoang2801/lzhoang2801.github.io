@@ -24,8 +24,6 @@ OpCore Simplify.
 Tạo OpenCore EFI dễ dàng hơn bao giờ hết với công cụ mạnh mẽ và trực quan.
 ::
 
-<div class="flex justify-center">
-    <img
-    src="https://cdn.neowin.com/news/images/uploaded/2024/06/1718089682_macos_sequoia_story.jpg"
-  />
+<div class="border rounded-lg shadow-md">
+  <iframe src="/introduction#opcore-simplify-l%C3%A0-g%C3%AC" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
 </div>
