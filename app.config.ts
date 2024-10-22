@@ -52,7 +52,7 @@ export default defineAppConfig({
       }],
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/lzhoang2801/lzhoang2801.github.io',
+        to: 'https://github.com/lzhoang2801/OpCore-Simplify',
         target: '_blank',
       }],
     },
@@ -68,7 +68,7 @@ export default defineAppConfig({
       credits: 'Copyright © 2024',
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/lzhoang2801/lzhoang2801.github.io',
+        to: 'https://github.com/lzhoang2801/OpCore-Simplify',
         target: '_blank',
       }],
     },
@@ -78,12 +78,12 @@ export default defineAppConfig({
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
-        to: 'https://github.com/lzhoang2801/lzhoang2801.github.io',
+        to: 'https://github.com/lzhoang2801/OpCore-Simplify',
         target: '_blank',
       }, {
         title: 'Create Issues',
         icon: 'lucide:circle-dot',
-        to: 'https://github.com/lzhoang2801/lzhoang2801.github.io/issues',
+        to: 'https://github.com/lzhoang2801/OpCore-Simplify/issues',
         target: '_blank',
       }],
     },
