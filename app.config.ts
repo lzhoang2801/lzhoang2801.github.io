@@ -29,17 +29,22 @@ export default defineAppConfig({
           to: '/hardware',
           description: 'Xác định thông tin phần cứng và tính tương thích với macOS',
         }, {
+          title: 'Thiết lập BIOS',
+          to: '/setup-bios',
+          description: 'Thay đổi các tuỳ chọn BIOS cần thiết để cài đặt macOS',
+        }, {
           title: 'Chuẩn bị EFI',
           to: '/gathering-files',
           description: 'Tạo OpenCore EFI đơn giản với OpCore Simplify và kiến thức cần biết về EFI',
         }, {
+          title: 'Tạo USB cài đặt',
+          to: '/make-bootable-installer',
+        }, {
           title: 'Cài đặt macOS',
           to: '/install-macos',
-          description: 'Chuẩn bị và cài đặt macOS lên máy tính của bạn',
         }, {
           title: 'Làm quen với macOS',
           to: '/macos-getting-started',
-          description: 'Bắt đầu với những thay đổi, thích nghi với trải nghiệm mới',
         }]
       }, {
         title: 'Dịch vụ',
