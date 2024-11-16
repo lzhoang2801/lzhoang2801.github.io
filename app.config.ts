@@ -23,7 +23,7 @@ export default defineAppConfig({
         links: [{
           title: 'Giới thiệu',
           to: '/introduction',
-          description: 'Tổng quan về macOS, OpCore Simplify và quá trình cài đặt',
+          description: 'Tổng quan về macOS và quá trình cài đặt',
         }, {
           title: 'Phần cứng',
           to: '/hardware',
